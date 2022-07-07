@@ -1,3 +1,4 @@
+
 numbers = input('Введите целые числа: ',).split()
 commonList = []
 for i in range(len(numbers)):
@@ -18,3 +19,4 @@ for i in commonList:
         print('Число не делящееся на пять: ', i)
     else:
         print('Ошибка! Число', i, ' делится на пять!')
+
