@@ -4,6 +4,8 @@
 # минимальное
 # все числа, которые делятся на 3 и не делятся на 5
 
+
+
 numbers = input('Введите целые числа: ',).split()
 commonList = []
 for i in range(len(numbers)):
